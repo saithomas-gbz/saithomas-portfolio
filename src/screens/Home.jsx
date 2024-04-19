@@ -1,10 +1,12 @@
 import { Title, Subtitle } from "../shared/Title";
+import LogoComponent from "../components/logoComponents";
 
 function Home () {
   return (
     <>
-      <Title>GRARE Thomas</Title>
-      <Subtitle>Web developer based in Frane, Paris</Subtitle>
+      <LogoComponent />
+      <Title>GRARE THOMAS</Title>
+      <Subtitle>Web developer based in France, Paris</Subtitle>
     </>
   );
 }
