@@ -6,7 +6,7 @@ import { lightTheme, darkTheme } from './config/theme';
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Space Mono';
-    src: url("../../public/fonts/SpaceMono-Regular.ttf") format("truetype");
+    src: url("./fonts/SpaceMono-Regular.ttf") format("truetype");
   }
 
   body {
