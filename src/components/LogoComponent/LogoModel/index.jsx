@@ -23,7 +23,7 @@ export default function Model(props) {
           receiveShadow
           geometry={nodes.Curve.geometry}
           material={materials['Material.001']}
-          position={[0, 0, 0]} // Set an initial position for the model
+          position={[0, 0, 0]}
           rotation={[Math.PI / 2, 0, -Math.PI / 4]}
           scale={2.6544}
         />
