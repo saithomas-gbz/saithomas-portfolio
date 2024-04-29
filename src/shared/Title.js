@@ -23,8 +23,9 @@ export const SecondaryTitle = styled.h3`
 `;
 
 export const Text = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   font-style: normal;
-  color: ${props => props.theme.textcolor};;
+  color: ${props => props.theme.textcolor};
+  padding-left: 15px;
 `;
