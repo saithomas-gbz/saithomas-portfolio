@@ -1,6 +1,7 @@
 import { Title, SecondaryTitle, Subtitle, Text } from "../shared/Title";
 import { List, ListItem, IconList, IconItem } from "../shared/List"
 import LogoComponent from "../components/LogoComponent";
+import GbzLogo from "../components/GbzLogo";
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Home () {
@@ -14,7 +15,7 @@ function Home () {
         I am currently a Vue.JS developer at Nibelis working on their framework and studying at Ynov Paris Campus. 
         I am also helping a content creator (Antoine GBZ) to build his identity on the web.
       </Text>
-      {/* METTRE SON LOGO */}
+      <GbzLogo />
       <SecondaryTitle>
         Bio
       </SecondaryTitle>
@@ -31,7 +32,7 @@ function Home () {
         Skating, Swimming, Fitness, Djing, Reading
       </Text>
       <SecondaryTitle>
-        On the web
+        Contact
       </SecondaryTitle>
       <IconList>
         <IconItem>
