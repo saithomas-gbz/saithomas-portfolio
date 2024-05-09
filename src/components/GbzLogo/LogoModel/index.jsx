@@ -23,7 +23,7 @@ export default function LogoModel(props) {
           geometry={nodes.Curve.geometry}
           material={materials.SVGMat}
           rotation={[1.571, 0, 0.027]}
-          position={[0, 0, 0]}
+          position={[0, 0, 0.15]}
         />
       </group>
     </>
