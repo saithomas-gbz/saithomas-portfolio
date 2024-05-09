@@ -2,6 +2,7 @@ import { Title, SecondaryTitle, Subtitle, Text } from "../shared/Title";
 import { List, ListItem, IconList, IconItem } from "../shared/List"
 import LogoComponent from "../components/LogoComponent";
 import GbzLogo from "../components/GbzLogo";
+import Footer from "../components/Footer";
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Home () {
@@ -12,28 +13,26 @@ function Home () {
       <Subtitle>Web developer based in France, Paris</Subtitle>
       <SecondaryTitle>Work</SecondaryTitle>
       <Text>
-        I am currently a Vue.JS developer at Nibelis working on their framework and studying at Ynov Paris Campus. 
-        I am also helping a content creator (Antoine GBZ) to build his identity on the web.
+        I am currently a Vue.JS developer at Nibelis working on their framework
+        and studying at Ynov Paris Campus. I am also helping a content creator (
+        <a href="https://www.instagram.com/antoine_gbz/">Antoine GBZ</a>) to
+        build his identity on the web.
       </Text>
       <GbzLogo />
-      <SecondaryTitle>
-        Bio
-      </SecondaryTitle>
+      <SecondaryTitle>Bio</SecondaryTitle>
       <List>
-        <ListItem>2019: Gratuated from High School of Rosa Pars (Montgeron, France)</ListItem>
+        <ListItem>
+          2019: Gratuated from High School of Rosa Parks (Montgeron, France)
+        </ListItem>
         <ListItem>2021: BTS (french diploma) in computer science</ListItem>
         <ListItem>2022: Worked at Cegedim SRH as a web developer</ListItem>
-        <ListItem>Now: Working at Nibelis and studying at Ynov Paris Campus</ListItem>
+        <ListItem>
+          Now: Working at Nibelis and studying at Ynov Paris Campus
+        </ListItem>
       </List>
-      <SecondaryTitle>
-        Hobbies
-      </SecondaryTitle>
-      <Text>
-        Skating, Swimming, Fitness, Djing, Reading
-      </Text>
-      <SecondaryTitle>
-        Skills
-      </SecondaryTitle>
+      <SecondaryTitle>Hobbies</SecondaryTitle>
+      <Text>Skating, Swimming, Fitness, Djing, Reading</Text>
+      <SecondaryTitle>Skills</SecondaryTitle>
       <List>
         <ListItem>Vue</ListItem>
         <ListItem>JavaScript</ListItem>
@@ -43,12 +42,10 @@ function Home () {
         <ListItem>Git</ListItem>
         <ListItem>Linux</ListItem>
       </List>
-      <SecondaryTitle>
-        Contact
-      </SecondaryTitle>
+      <SecondaryTitle>Contact</SecondaryTitle>
       <IconList>
         <IconItem>
-          <FaGithub/> 
+          <FaGithub />
           <span> saithomas-gbz </span>
         </IconItem>
         <IconItem>
@@ -64,6 +61,7 @@ function Home () {
           <span>saithomas.gbz</span>
         </IconItem>
       </IconList>
+      <Footer />
     </>
   );
 }

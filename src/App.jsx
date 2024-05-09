@@ -3,6 +3,8 @@ import Routes from "./config/router";
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from './config/theme';
 import { GlobalStyle } from './shared/GlobalStyle';
+import { ButtonContainer, ThemeButton } from './shared/Button';
+import { TbSun } from "react-icons/tb";
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -18,7 +20,9 @@ function App() {
   return (
     <>
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
-      <button onClick={toggleTheme}>Basculer le thème</button>
+      <ButtonContainer>
+        <ThemeButton onClick={toggleTheme}><TbSun size={24}/></ThemeButton>
+      </ButtonContainer>
       <GlobalStyle />
         <Routes />
       </ThemeProvider>
