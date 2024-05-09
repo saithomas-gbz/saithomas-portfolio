@@ -36,4 +36,10 @@ export const Text = styled.p`
   @media (max-width: 768px) {
     font-size: 14px;
   } 
+
+`;
+
+export const LinkStyled = styled.a`
+  color: ${(props) => props.theme.linkcolor};
+  text-decoration: underline;
 `;

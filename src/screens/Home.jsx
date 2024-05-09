@@ -1,5 +1,5 @@
-import { Title, SecondaryTitle, Subtitle, Text } from "../shared/Title";
-import { List, ListItem, IconList, IconItem } from "../shared/List"
+import { Title, SecondaryTitle, Subtitle, Text, LinkStyled } from "../shared/Title";
+import { List, ListItem, IconList, IconItem } from "../shared/List";
 import LogoComponent from "../components/LogoComponent";
 import GbzLogo from "../components/GbzLogo";
 import Footer from "../components/Footer";
@@ -14,8 +14,7 @@ function Home () {
       <SecondaryTitle>Work</SecondaryTitle>
       <Text>
         I am currently a Vue.JS developer at Nibelis working on their framework
-        and studying at Ynov Paris Campus. I am also helping a content creator (
-        <a href="https://www.instagram.com/antoine_gbz/">Antoine GBZ</a>) to
+        and studying at Ynov Paris Campus. I am also helping a content creator <LinkStyled href="https://www.instagram.com/antoine_gbz/">Antoine GBZ</LinkStyled> to
         build his identity on the web.
       </Text>
       <GbzLogo />
