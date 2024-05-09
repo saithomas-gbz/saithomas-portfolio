@@ -5,15 +5,17 @@ export const List = styled.ul`
 `;
 
 export const ListItem = styled.li`
-  font-size: 14px;
-
-  color: ${props => props.theme.textcolor}
+  font-size: 18px;
+  color: ${props => props.theme.textcolor};
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 export const IconList = styled(List)`
   list-style: none;
   padding: 0 0 0 20px;
-  font-size: 14px;
+  font-size: 18px;
 `;
 
 export const IconItem = styled(ListItem)`
