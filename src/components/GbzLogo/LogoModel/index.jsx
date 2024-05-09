@@ -30,4 +30,4 @@ export default function LogoModel(props) {
   )
 }
 
-useGLTF.preload('/gbz.glb')
+useGLTF.preload('/gbz_logo.glb')
