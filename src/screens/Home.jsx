@@ -32,6 +32,18 @@ function Home () {
         Skating, Swimming, Fitness, Djing, Reading
       </Text>
       <SecondaryTitle>
+        Skills
+      </SecondaryTitle>
+      <List>
+        <ListItem>Vue</ListItem>
+        <ListItem>JavaScript</ListItem>
+        <ListItem>Node.JS</ListItem>
+        <ListItem>React.JS</ListItem>
+        <ListItem>Docker</ListItem>
+        <ListItem>Git</ListItem>
+        <ListItem>Linux</ListItem>
+      </List>
+      <SecondaryTitle>
         Contact
       </SecondaryTitle>
       <IconList>
