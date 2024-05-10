@@ -5,7 +5,7 @@ export default function Loader() {
   return (
     <Center>
       <LoadingComponent />
-      <LoadingTitle>Thomas Grare</LoadingTitle>
+      <LoadingTitle>THOMAS GRARE</LoadingTitle>
     </Center>
   );
 
