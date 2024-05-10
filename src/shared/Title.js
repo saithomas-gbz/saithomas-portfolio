@@ -1,10 +1,15 @@
 import { styled } from "styled-components"
+import { colorChange } from "./Hex";
 
 export const Title = styled.h1`
   font-size: 32px;
   font-weight: bold;
   color: ${props => props.theme.textcolor};
   text-align: center;
+`;
+
+export const LoadingTitle = styled(Title)`
+  animation: ${colorChange} 2s infinite;
 `;
 
 export const Subtitle = styled.h2`

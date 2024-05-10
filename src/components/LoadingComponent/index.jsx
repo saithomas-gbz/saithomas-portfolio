@@ -12,19 +12,25 @@ const StyledCanvas = styled(Canvas)`
   }
 `;
 
-export default function LogoComponent() {
+const AnimatedLogoModel = () => {
   const mesh = useRef();
 
-  useFrame(() => {
-    if (mesh.current) {
-      mesh.current.rotation.x += 0.01;
-      mesh.current.rotation.y += 0.01;
-    }
-  });
+  // useFrame(() => {
+  //   if (mesh.current) {
+  //     mesh.current.rotation.x += 0.01;
+  //     mesh.current.rotation.z += 0.01;
 
+  //     mesh.current.rotation.y += 0.01;
+  //   }
+  // });
+
+  return <LogoModel ref={mesh} />;
+};
+
+export default function LogoComponent() {
   return (
     <StyledCanvas flat camera={{ position: [0, 0, 0.3], fov: 30 }}>
-      <LogoModel ref={mesh} />
+      <AnimatedLogoModel />
     </StyledCanvas>
   );
 }

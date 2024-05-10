@@ -1,3 +1,5 @@
+import { keyframes } from 'styled-components';
+
 export const hexToRgb = (hex) => {
   const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
   return result
@@ -8,3 +10,9 @@ export const hexToRgb = (hex) => {
       }
     : null;
 };
+
+export const colorChange = keyframes`
+  0% { color: initial; }
+  50% { color: #B53746; } 
+  100% { color: initial; }
+`;
