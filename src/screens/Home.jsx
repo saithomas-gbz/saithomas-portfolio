@@ -44,6 +44,11 @@ function Home () {
         <ListItem>Git</ListItem>
         <ListItem>Linux</ListItem>
       </List>
+      <SecondaryTitle>Projects</SecondaryTitle>
+      <Text>  
+        Loic Marcou and I plan to create custom keycaps for the iso azerty layout for mechanical keyboards fans in France/Europe. 
+        We plan to launch our website in the beginnning of 2025. I am also working with Antoine GBZ to create his website for his online coaching and merch. More information soon during the summer. You can also check my GitHub for minor projects.
+      </Text>
       <SecondaryTitle>Contact</SecondaryTitle>
       <IconList>
         <a href="https://github.com/saithomas-gbz">
