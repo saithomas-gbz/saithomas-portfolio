@@ -11,8 +11,9 @@ export const hexToRgb = (hex) => {
     : null;
 };
 
+
 export const colorChange = keyframes`
-  0% { color: initial; }
+  0% { color: ${(props) => props.theme.textcolor}; }
   50% { color: #B53746; } 
-  100% { color: initial; }
+  100% { color: ${(props) => props.theme.textcolor}; }
 `;

@@ -33,6 +33,11 @@ export const SecondaryTitle = styled(Subtitle)`
   font-weight: bold;
   text-align: left;
   margin: 20px;
+  cursor: default;
+  &:hover {
+    animation: ${colorChange} 4s infinite;
+  }
+
   @media (max-width: 768px) {
     font-size: 16px;
   }
