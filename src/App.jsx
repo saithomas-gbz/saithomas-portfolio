@@ -22,7 +22,6 @@ function App() {
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <ButtonContainer>
           <ThemeButton onClick={toggleTheme}>
-            {/* <TbSun size={24}/> */}
             {theme === "light" ? <TbMoon size={24} /> : <TbSun size={24} />}
           </ThemeButton>
         </ButtonContainer>
