@@ -25,7 +25,6 @@ const AppRoutes = () => {
             <Home />
           </LoadingWithLocation>
         } />
-        {/* Add more routes here */}
       </Routes>
     </Router>
   );
