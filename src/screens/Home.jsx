@@ -15,7 +15,7 @@ function Home () {
       <Text>
         I am currently a Vue.JS developer at Nibelis working on their framework
         and studying at Ynov Paris Campus. I am also helping a content creator{" "}
-        <LinkStyled href="https://www.instagram.com/antoine_gbz/">
+        <LinkStyled href="https://www.instagram.com/antoine_gbz/" target="_blank">
           Antoine GBZ
         </LinkStyled>{" "}
         to build his identity on the web.
@@ -51,25 +51,25 @@ function Home () {
       </Text>
       <SecondaryTitle>Contact</SecondaryTitle>
       <IconList>
-        <a href="https://github.com/saithomas-gbz">
+        <a href="https://github.com/saithomas-gbz" target="_blank">
           <IconItem>
             <FaGithub />
             <span> saithomas-gbz </span>
           </IconItem>
         </a>
-        <a href="https://twitter.com/saithomas_gbz">
+        <a href="https://twitter.com/saithomas_gbz" target="_blank">
           <IconItem>
             <FaTwitter />
             <span>saithomas_gbz</span>
           </IconItem>
         </a>
-        <a href="https://www.linkedin.com/in/thomas-grare/">
+        <a href="https://www.linkedin.com/in/thomas-grare/" target="_blank">
           <IconItem>
             <FaLinkedin />
             <span>thomas-grare</span>
           </IconItem>
         </a>
-        <a href="https://www.instagram.com/saithomas.gbz/">
+        <a href="https://www.instagram.com/saithomas.gbz/" target="_blank">
           <IconItem>
             <FaInstagram />
             <span>saithomas.gbz</span>
