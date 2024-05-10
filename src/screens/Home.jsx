@@ -14,8 +14,11 @@ function Home () {
       <SecondaryTitle>Work</SecondaryTitle>
       <Text>
         I am currently a Vue.JS developer at Nibelis working on their framework
-        and studying at Ynov Paris Campus. I am also helping a content creator <LinkStyled href="https://www.instagram.com/antoine_gbz/">Antoine GBZ</LinkStyled> to
-        build his identity on the web.
+        and studying at Ynov Paris Campus. I am also helping a content creator{" "}
+        <LinkStyled href="https://www.instagram.com/antoine_gbz/">
+          Antoine GBZ
+        </LinkStyled>{" "}
+        to build his identity on the web.
       </Text>
       <GbzLogo />
       <SecondaryTitle>Bio</SecondaryTitle>
@@ -43,22 +46,30 @@ function Home () {
       </List>
       <SecondaryTitle>Contact</SecondaryTitle>
       <IconList>
-        <IconItem>
-          <FaGithub />
-          <span> saithomas-gbz </span>
-        </IconItem>
-        <IconItem>
-          <FaTwitter />
-          <span>saithomas_gbz</span>
-        </IconItem>
-        <IconItem>
-          <FaLinkedin />
-          <span>thomas-grare</span>
-        </IconItem>
-        <IconItem>
-          <FaInstagram />
-          <span>saithomas.gbz</span>
-        </IconItem>
+        <a href="https://github.com/saithomas-gbz">
+          <IconItem>
+            <FaGithub />
+            <span> saithomas-gbz </span>
+          </IconItem>
+        </a>
+        <a href="https://twitter.com/saithomas_gbz">
+          <IconItem>
+            <FaTwitter />
+            <span>saithomas_gbz</span>
+          </IconItem>
+        </a>
+        <a href="https://www.linkedin.com/in/thomas-grare/">
+          <IconItem>
+            <FaLinkedin />
+            <span>thomas-grare</span>
+          </IconItem>
+        </a>
+        <a href="https://www.instagram.com/saithomas.gbz/">
+          <IconItem>
+            <FaInstagram />
+            <span>saithomas.gbz</span>
+          </IconItem>
+        </a>
       </IconList>
       <Footer />
     </>

@@ -7,7 +7,9 @@ const fadedBgColor = props => {
 }
 
 export const List = styled.ul`
-  
+  a {
+    text-decoration: none;
+  }
 `;
 
 export const ListItem = styled.li`
