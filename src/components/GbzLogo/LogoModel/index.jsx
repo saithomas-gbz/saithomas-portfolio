@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
  
 export default function LogoModel(props) {
-  const { nodes, materials } = useGLTF('/gbz_logo.glb')
+  const { nodes, materials } = useGLTF('/models/gbz_logo.glb')
   const meshRef = useRef()
 
   useFrame(() => {
@@ -30,4 +30,4 @@ export default function LogoModel(props) {
   )
 }
 
-useGLTF.preload('/gbz_logo.glb')
+useGLTF.preload('/models/gbz_logo.glb')

@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
  
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/ThomasGrare.glb')
+  const { nodes, materials } = useGLTF('/models/ThomasGrare.glb')
   const meshRef = useRef()
 
   useFrame(() => {
@@ -33,4 +33,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/ThomasGrare.glb')
+useGLTF.preload('/models/ThomasGrare.glb')
