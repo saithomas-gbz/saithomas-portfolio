@@ -34,6 +34,7 @@ export const IconItem = styled(ListItem)`
   border-radius: 8px;
   align-items: center;
   cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
   &:hover { 
     background-color: ${fadedBgColor};
   }
