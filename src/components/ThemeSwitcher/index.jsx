@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from '../../config/theme';
 import { ButtonContainer, ThemeButton } from '../../shared/Button';
-import { TbSun, TbMoon } from "react-icons/tb";
+import { IoMdSunny } from "react-icons/io";
+import { FaMoon} from "react-icons/fa";
 
 export const ThemeSwitcher = ({ children }) => {
   const [theme, setTheme] = useState('dark');
@@ -25,7 +26,7 @@ export const ThemeSwitcher = ({ children }) => {
       {showButton && (
         <ButtonContainer>
           <ThemeButton onClick={toggleTheme}>
-            {theme === "light" ? <TbMoon size={24} /> : <TbSun size={24} />}
+            {theme === "light" ? <FaMoon size={20} /> : <IoMdSunny size={20} />}
           </ThemeButton>
         </ButtonContainer>
       )}
