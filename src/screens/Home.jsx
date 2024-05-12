@@ -10,12 +10,15 @@ function Home () {
     <>
       <LogoComponent />
       <Title>GRARE THOMAS</Title>
-      <Subtitle>Web developer based in France, Paris</Subtitle>
+      <Subtitle>Web developer based in France/Paris</Subtitle>
       <SecondaryTitle>Work</SecondaryTitle>
       <Text>
         I am currently a Vue.JS developer at Nibelis working on their framework
         and studying at Ynov Paris Campus. I am also helping a content creator{" "}
-        <LinkStyled href="https://www.instagram.com/antoine_gbz/" target="_blank">
+        <LinkStyled
+          href="https://www.instagram.com/antoine_gbz/"
+          target="_blank"
+        >
           Antoine GBZ
         </LinkStyled>{" "}
         to build his identity on the web.
@@ -45,9 +48,13 @@ function Home () {
         <ListItem>Linux</ListItem>
       </List>
       <SecondaryTitle>Projects</SecondaryTitle>
-      <Text>  
-        Loic Marcou and I plan to create custom keycaps for the iso azerty layout for mechanical keyboards fans in France/Europe. 
-        We plan to launch our website in the beginnning of 2025. I am also working with Antoine GBZ to create his website for his online coaching and merch. More information soon during the summer. You can also check my GitHub for minor projects.
+      <Text>
+        Loic Marcou and I plan to create custom keycaps for the iso azerty
+        layout for mechanical keyboards, to help grow the comumunity in
+        France/Europe. We plan to launch our website in the beginning of 2025.
+        I’m also working with Antoine GBZ to create his website for his online
+        coaching business. More information soon. You can also check my GitHub
+        for minor projects.
       </Text>
       <SecondaryTitle>Contact</SecondaryTitle>
       <IconList>
